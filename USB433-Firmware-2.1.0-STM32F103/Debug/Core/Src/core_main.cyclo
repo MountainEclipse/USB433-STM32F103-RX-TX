@@ -1,0 +1,5 @@
+../Core/Src/core_main.cpp:42:5:int USER_setup()	2
+../Core/Inc/receiver.h:31:3:RxPacket::RxPacket()	1
+../Core/Src/core_main.cpp:63:5:int USER_loop()	13
+../Core/Src/core_main.cpp:139:6:void USER_error()	1
+../Core/Src/core_main.cpp:143:6:void USER_shutdown()	1
