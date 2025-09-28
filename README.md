@@ -6,7 +6,7 @@ USB-connected, STM32F103-based 433.92MHz module with asynchronous RX sniffing fo
 
 *Github Repo: <a href="https://github.com/MountainEclipse/USB433-STM32F103-RX-TX" target="_blank">USB433</a> by <a href="https://github.com/MountainEclipse" target="_blank">MountainEclipse (TimeHack)</a>*
 
-*Assembly Instructable: <a href="" target="_blank">USB433 - Sniff & Transmit 433 MHz</a>*
+*Assembly Instructable: <a href="https://www.instructables.com/USB433-Sniff-Transmit-OOK-43392-MHz/" target="_blank">USB433 - Sniff & Transmit OOK 433.92 MHz</a>*
 
 <hr>
 
@@ -16,10 +16,21 @@ Designed to operate on a custom circuit board, this project should equally work 
 
 The following is a list of everything you need to make this project:
 <ul>
-  <li>STM32F103 Microcontroller</li>
-  <li>A 433.92MHz OOK Transmitter and Receiver (I used the STX882 and SRX882 module pair)</li>
-  <li>(Optional) 3D printer for building the project enclosure</li>
+  Hardware:
+
+<li>STM32F103 Microcontroller (the STM32 Blue Pill can work; just pay attention to pinouts)</li>
+<li>433 MHz OOK Receiver and Transmitter (I used SRX882 and STX882)</li>
+<li>Optional: 3D Printer for printing the enclosure</li>
+<li>Optional: LED's for user feedback</li>
+<li>4x M3x12 hex socket screws</li>
+<li>4x M3 hex nuts</li>
+</ul>
+<ul>
+Software:
+<li>KiCAD 6.0 (If you're modifying the PCB or generating the DRL files for PCB fabrication)</li>
+<li>STM32CubeIDE (for flashing the STM32 with ease)</li>
+<li>Optional: Hercules Setup Utility (for testing serial commands)</li>
 </ul>
 
 <hr>
-For instructions on assembly, flashing, and testing, please visit the project Instructable <a href="" target="_blank">here</a>
+For instructions on assembly, flashing, and testing, please visit the project Instructable <a href="https://www.instructables.com/USB433-Sniff-Transmit-OOK-43392-MHz/" target="_blank">here</a>
